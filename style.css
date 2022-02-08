@@ -11,12 +11,14 @@ h2{
 }
 
 .container {
-    object-fit:scale-down;
-    display:flex;
+    /* object-fit:scale-down;*/
     justify-content: space-evenly;
+    display: flex;
     flex-flow: row wrap;
 }
 
-img {
-    flex: 0 0 50%
+.im {
+    width: 536px;
+    height: 306px;
+    flex: 0 0 50%;
 }
