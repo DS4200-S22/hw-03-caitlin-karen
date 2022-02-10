@@ -16,7 +16,14 @@ h2{
     align-content: auto;
     flex-flow: row wrap;
     padding: 15px;
-    gap: 10px 10px;
+    gap: 10px;
+}
+
+.shape-flex {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 25px;
 }
 
 .im {
@@ -37,4 +44,13 @@ p {
     padding-bottom: 10px;
     padding-left: 20px;
     width: 500px;
+}
+  
+.block {
+    fill:rgba(240,128,128,0.8);
+    transition-duration: 2s;
+}
+
+.block:hover {
+    fill: #000;
 }
