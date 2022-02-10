@@ -22,9 +22,8 @@ h2{
 .shape-flex {
     display: flex;
     justify-content: center;
-    align-content: auto;
     flex-flow: row wrap;
-    padding: 25px;
+    align-content: auto;
 }
 
 .im {
@@ -46,11 +45,19 @@ p {
     padding-left: 20px;
     width: 500px;
 }
-  
+
 .block {
-    fill:rgba(240,128,128,0.8);
+    fill: rgba(240,128,128,0.8);
+}
+  
+.block:hover {
+    fill: rgb(255, 0, 0);
 }
 
-.block:hover {
-    fill: blue;
+.round {
+    fill: #c4faf8;
+}
+  
+.round:hover {
+    fill: rgb(0, 0, 255);
 }
