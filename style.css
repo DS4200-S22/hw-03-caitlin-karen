@@ -10,7 +10,7 @@ h2{
     text-align:center;
 }
 
-.container {
+#container {
     display: flex;
     justify-content: center;
     align-content: auto;
@@ -19,11 +19,15 @@ h2{
     gap: 10px;
 }
 
-.shape-flex {
+#shape-flex {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
     align-content: auto;
+}
+
+#ack {
+    text-align: center;
 }
 
 .im {
@@ -60,4 +64,9 @@ p {
   
 .round:hover {
     fill: #0a4e91;
+}
+
+#bullets { 
+    text-align: left;
+    display: inline-block;
 }
