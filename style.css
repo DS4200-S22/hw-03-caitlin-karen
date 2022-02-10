@@ -11,14 +11,28 @@ h2{
 }
 
 .container {
-    /* object-fit:scale-down;*/
-    justify-content: space-evenly;
     display: flex;
+    justify-content: center;
     flex-flow: row wrap;
+    padding: 15px;
+    gap: 10px 10px;
 }
 
 .im {
     width: 536px;
     height: 306px;
     flex: 0 0 50%;
+}
+
+.graph {
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+}
+
+p {
+    padding-top: 10;
+    padding-right: 20;
+    padding-bottom: 10px;
+    padding-left: 20px;
 }
