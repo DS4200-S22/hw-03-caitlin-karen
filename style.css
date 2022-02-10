@@ -22,6 +22,7 @@ h2{
 .shape-flex {
     display: flex;
     justify-content: center;
+    align-content: auto;
     flex-flow: row wrap;
     padding: 25px;
 }
